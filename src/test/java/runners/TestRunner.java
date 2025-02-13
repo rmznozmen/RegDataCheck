@@ -18,5 +18,5 @@ import io.cucumber.junit.CucumberOptions;
         //tags = "@Regression",  // Remove this line if you want to run all tests
         dryRun = false  // Change to true to check if Cucumber finds step definitions
 )
-public class TestRunnerFeatures {
+public class TestRunner {
 }
