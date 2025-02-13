@@ -60,7 +60,7 @@ public class FileValidationUtils {
                         String filePath = basePath + reportFile;
 
                         if (Files.exists(Paths.get(filePath))) {
-                            reportFiles.put(filePath,"c"+ parts[2]); // Store file path + column name (e.g., "0020")
+                            reportFiles.put(filePath,"c"+ parts[2]); // Store file path + column name (e.g., "c0020")
                         }
                     }
                 }
